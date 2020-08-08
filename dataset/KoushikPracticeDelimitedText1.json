@@ -1,0 +1,22 @@
+{
+	"name": "KoushikPracticeDelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "KoushikPracticeAzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "adfoutput",
+				"container": "koushikpracticecontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
