@@ -8,12 +8,13 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
-			"sheetName": "Cars",
+			"sheetName": "Persons",
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "data.xlsx",
 				"container": "koushikpracticecontainer"
 			},
+			"range": "c9:e13",
 			"firstRowAsHeader": true
 		},
 		"schema": []
